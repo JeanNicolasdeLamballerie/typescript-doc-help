@@ -15,7 +15,7 @@ const testingPath = "/testTypes";
 app.get( testingPath, myExpressFunction );
 const startServer = () => {
     app.listen( port, () => {
-        console.log( `Example express server is running. Try running a get request to http://localhost:${ port }/${ testingPath }` );
+        console.log( `Example express server is running. Try running a get request to http://localhost:${ port + testingPath }` );
     } );
 };
 export default startServer;

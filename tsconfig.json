@@ -4,6 +4,7 @@
         "allowSyntheticDefaultImports": true,
         "target": "es5",
         "resolveJsonModule": true,
+        "outDir": "./build",
         "typeRoots": [
             "./types"
         ]
