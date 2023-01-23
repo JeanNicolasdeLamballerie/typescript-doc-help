@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es5",
+        "resolveJsonModule": true,
+        "typeRoots": [
+            "./types"
+        ]
+    },
+    "include": [
+        "*.ts"
+    ]
+}
