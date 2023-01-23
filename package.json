@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon",
     "example": "tsc && npx nodemon build/index.js",
-    "exampleWindow": "tsc ; npx nodemon build/index.js"
+    "exampleWindows": "tsc ; npx nodemon build/index.js"
   },
   "author": "Dekharen",
   "license": "ISC"
